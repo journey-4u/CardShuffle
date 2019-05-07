@@ -1,6 +1,7 @@
 #include <iostream>
 #include <stdlib.h>
 #include <stdio.h>
+#include <time.h>
 
 using namespace std;
 
@@ -24,6 +25,8 @@ void FirstAttempt(){
 
 	int Cards[52];
 
+	srand (time(NULL));
+
 	int swap;
 	int r1;
 	int r2;
@@ -32,7 +35,7 @@ void FirstAttempt(){
 		Cards[i] = i;
 	}
 
-	for(int i = 0; i < 100000;i++){
+	for(int i = 0; i < 1000000;i++){
 
 		r1 = rand() % 52;
 		r2 = rand() % 52;
