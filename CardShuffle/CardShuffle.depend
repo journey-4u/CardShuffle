@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1557254286 source:l:\cardshuffle\cardshuffle\main.cpp
+	<iostream>
+	<stdlib.h>
+	<stdio.h>
+	<time.h>
+
+1557398988 source:e:\cardshuffle\cardshuffle\main.cpp
+	<iostream>
+	<stdlib.h>
+	<stdio.h>
+	<time.h>
+	<vector>
+
